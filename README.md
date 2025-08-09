@@ -6,9 +6,9 @@
 
 ```
 src/
-├── airsim_image_saver/     # 自开发的AirSim图像保存和控制包
-├── px4_msgs/               # PX4消息定义 (submodule)
-└── px4_ros_com/            # PX4与ROS2通信桥接 (submodule)
+├── drone_controller/          # 自开发的无人机控制包（图像保存、键盘遥控、任务执行）
+├── px4_msgs/                  # PX4消息定义 (submodule)
+└── px4_ros_com/               # PX4与ROS2通信桥接 (submodule)
 ```
 
 ## 依赖说明
@@ -27,13 +27,13 @@ src/
 
 ### 自开发包
 
-- **airsim_image_saver**: 包含图像保存、键盘遥控和任务执行节点
+- **drone_controller**: 包含图像保存、键盘遥控和任务执行节点
 
 ## 克隆项目
 
 ### 方式一：完整克隆（推荐）
 ```bash
-git clone --recursive https://github.com/your-username/drone_sim_ros2.git
+git clone --recurse-submodules https://github.com/your-username/drone_sim_ros2.git
 ```
 
 ### 方式二：分步克隆

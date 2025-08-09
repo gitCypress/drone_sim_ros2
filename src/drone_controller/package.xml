@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>airsim_image_saver</name>
+  <name>drone_controller</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="cypress@todo.todo">cypress</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Drone controller package for AirSim simulation with image saving, keyboard teleoperation and mission control</description>
+  <maintainer email="2730196143@qq.com">cypress</maintainer>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>

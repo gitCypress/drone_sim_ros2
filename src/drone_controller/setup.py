@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'airsim_image_saver'
+package_name = 'drone_controller'
 
 setup(
     name=package_name,
@@ -14,15 +14,15 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='cypress',
-    maintainer_email='cypress@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='2730196143@qq.com',
+    description='Drone controller package for AirSim simulation with image saving, keyboard teleoperation and mission control',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'image_saver_node = airsim_image_saver.image_saver_node:main',
-            'keyboard_teleop_node = airsim_image_saver.keyboard_teleop_node:main',
-            'mission_node = airsim_image_saver.mission_node:main',
+            'image_saver_node = drone_controller.image_saver_node:main',
+            'keyboard_teleop_node = drone_controller.keyboard_teleop_node:main',
+            'mission_node = drone_controller.mission_node:main',
         ],
     },
 )
