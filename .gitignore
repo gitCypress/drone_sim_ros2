@@ -1,0 +1,74 @@
+# ROS2 Build artifacts
+build/
+install/
+log/
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+*.whl
+.venv/
+venv/
+env/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Catkin (for hybrid workspaces)
+devel/
+
+# Colcon
+.colcon_install_layout
+.colcon_build_layout
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
+
+# Configuration files that might contain sensitive data
+**/config/secrets.yaml
+**/config/private.yaml
+
+# AirSim specific
+settings.json
